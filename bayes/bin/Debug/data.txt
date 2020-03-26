@@ -1,0 +1,10 @@
+TAK;slonecznie;goraco;umiarkowany
+NIE;deszczowo;chlodno;mocny
+TAK;pochmurno;cieplo;slaby
+NIE;pochmurno;goraco;umiarkowany
+TAK;slonecznie;cieplo;mocny
+TAK;slonecznie;goraco;slaby
+TAK;deszczowo;goraco;slaby
+NIE;slonecznie;chlodno;mocny
+NIE;pochmurno;cieplo;mocny
+NIE;deszczowo;cieplo;slaby
