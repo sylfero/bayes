@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bayes
 {
-    //Dla przykładu 2
+    //Dla przykładu 2 i 3
     class Bayes
     {
         private List<Case> Cases = new List<Case>();
