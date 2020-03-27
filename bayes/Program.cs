@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace bayes
 {
@@ -10,9 +12,11 @@ namespace bayes
     {
         static void Main(string[] args)
         {
-            Bayes b = new Bayes("data.txt");
-            b.Clasify("deszczowo", "goraco", "slaby");
-            b.Clasify("pochmurno", "chlodno", "mocny");
+            Bayes ba = new Bayes("data.txt");
+            ba.Clasify("deszczowo", "goraco", "slaby");
+            ba.Clasify("pochmurno", "chlodno", "mocny");
+            
+            Filter.MyFilter("before.jpg");
             Console.ReadKey();
         }
     }
